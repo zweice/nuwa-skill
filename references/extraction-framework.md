@@ -1,151 +1,151 @@
-# 思维框架提炼方法论
+# Extraction methodology
 
-> 从原始信息到可运行的心智模型，核心方法论
+> How raw material becomes a runnable mental model.
 
-## 一、心智模型识别的三重验证
+## 1. Triple-verification for mental-model identification
 
-一个论点要被认定为「心智模型」而非「随口一说」，必须通过三重验证：
+Before a claim is accepted as a "mental model" rather than an offhand remark, it must pass three tests:
 
-### 验证1: 跨域复现
-同一个思维框架出现在此人讨论的至少2个不同领域。
+### Test 1: cross-domain recurrence
+The same thinking framework appears in at least 2 different topics this person discusses.
 
-例：纳瓦尔的「杠杆」概念——
-- 在财富创造中谈杠杆（代码、媒体、资本、劳动力）
-- 在个人成长中谈杠杆（特定知识 + 杠杆 = 复利）
-- 在职业选择中谈杠杆（选择有杠杆效应的工作）
-→ 跨3个领域复现 → 这是真正的心智模型
+Example: Naval's concept of "leverage":
+- In wealth creation: code, media, capital, labor.
+- In personal growth: specific knowledge + leverage = compounding.
+- In career choice: pick work that has leverage.
+→ Recurs across 3 domains → this is a genuine mental model.
 
-### 验证2: 有生成力
-用这个模型可以推断此人对新问题的可能立场。
+### Test 2: generative power
+You can use this model to infer the person's likely position on a new problem.
 
-例：如果芒格的「逆向思维」是心智模型——
-- 面对「如何成功」→ 他会先想「如何确保失败」
-- 面对「如何投资」→ 他会先想「如何亏光所有钱」
-→ 能生成新推断 → 这是真正的心智模型
+Example: if Munger's "inversion thinking" is a mental model:
+- On "how do I succeed?" → he first asks "how would I guarantee failure?"
+- On "how should I invest?" → he first asks "how would I lose all my money?"
+→ Generates new inferences → genuine mental model.
 
-### 验证3: 有排他性
-不是所有聪明人都会这样想，这个模型体现了此人的独特视角。
+### Test 3: exclusivity
+Not what every smart person would say. The model expresses this person's distinctive angle.
 
-例：「反脆弱」是塔勒布的，不是所有人都这样看世界
-→ 有区分度 → 这是值得提炼的心智模型
+Example: "antifragility" belongs to Taleb. Not every thoughtful person sees the world this way.
+→ Discriminating → worth distilling.
 
-**如果一个观点只通过了1重验证** → 降级为「决策启发式」而非「心智模型」
-**如果一个观点0重验证都没过** → 可能只是此人在特定场景说的话，不纳入
+**If a claim passes only 1 test** → demote to "decision heuristic", not "mental model".
+**If it passes 0 tests** → it may be something this person said in a specific context. Do not include.
 
 ---
 
-## 二、表达DNA的量化方法
+## 2. Quantifying expression DNA
 
-### 2.1 句式指纹
+### 2.1 Sentence fingerprint
 
-从此人的长文/演讲中随机抽取20个段落，统计：
+Pull 20 random paragraphs from this person's long-form writing or speeches. Measure:
 
-| 维度 | 测量方式 |
-|------|---------|
-| 平均句长 | 字数/句数 |
-| 疑问句比例 | 疑问句数/总句数 |
-| 类比密度 | 类比数/千字 |
-| 第一人称使用率 | 「我」出现频率 |
-| 确定性语气比例 | 「一定」「显然」vs「也许」「可能」 |
-| 转折频率 | 「但是」「然而」「不过」/千字 |
+| Dimension | How to measure |
+|---|---|
+| Average sentence length | chars / sentence count |
+| Question-sentence ratio | question-sentences / total sentences |
+| Analogy density | analogies / 1000 chars |
+| First-person frequency | usage rate of "I" |
+| Certainty-tone ratio | "definitely / clearly" vs. "maybe / possibly" |
+| Transition frequency | "but / however / though" per 1000 chars |
 
-### 2.2 风格标签
+### 2.2 Style tags
 
-从以下维度打标：
+Tag along these axes:
 
 ```
-正式 ←→ 口语
-抽象 ←→ 具体
-谨慎 ←→ 断言
-学术 ←→ 通俗
-长句 ←→ 短句
-铺垫型 ←→ 结论先行
-数据驱动 ←→ 叙事驱动
+formal        ←→ conversational
+abstract      ←→ concrete
+cautious      ←→ assertive
+academic      ←→ popular
+long sentences ←→ short sentences
+buildup       ←→ conclusion-first
+data-driven   ←→ narrative-driven
 ```
 
-### 2.3 禁忌词和口癖
+### 2.3 Taboo words and verbal tics
 
-- 此人从不用的词 → 生成Skill时也不用
-- 此人的口癖/高频表达 → 适度使用（太多变成模仿秀）
-
----
-
-## 三、矛盾处理原则
-
-矛盾是人格的核心特征，不是需要修复的Bug。
-
-### 三种矛盾类型
-
-1. **时间性矛盾**（观点演化）
-   - 此人早期说A，后来说B
-   - 处理：记录演化轨迹，标注「早期」「近期」
-   - 在Skill中以「近期观点」为主，但提及演化
-
-2. **领域性矛盾**（不同场景不同规则）
-   - 此人在工作中主张X，在生活中主张Y
-   - 处理：分领域记录，不强求统一
-   - 这恰恰是深度的来源
-
-3. **本质性张力**（价值观内在冲突）
-   - 例：既追求自由又重视纪律
-   - 处理：明确记录为「核心张力」
-   - 这通常是此人最有意思的部分
-
-### 错误的处理方式
-- ❌ 选一边忽略另一边
-- ❌ 编一个调和的解释
-- ❌ 假装矛盾不存在
+- Words this person never uses → don't use them in the generated skill either.
+- Verbal tics and high-frequency expressions → use sparingly (overdoing it turns the skill into a parody).
 
 ---
 
-## 四、信息不足时的处理
+## 3. Handling contradictions
 
-| 情况 | 处理 |
-|------|------|
-| 某个维度公开信息很少 | 在Skill中标注「信息不足，此维度为推测」 |
-| 只有二手信息 | 降低置信度，标注为「据[来源]报道」 |
-| 信息相互矛盾且无法判断 | 并列呈现，让用户自行判断 |
-| 此人刻意不公开某方面 | 尊重边界，在Skill中注明「此人对这个话题保持沉默」 |
+Contradiction is a core feature of personhood, not a bug to be fixed.
+
+### Three kinds of contradiction
+
+1. **Temporal** (view evolution)
+   - The person said A earlier, B later.
+   - Handling: record the evolution, mark "earlier" vs. "recent".
+   - In the skill, favor "recent views" but mention the evolution.
+
+2. **Domain-specific** (different rules in different contexts)
+   - The person advocates X at work and Y in life.
+   - Handling: record per domain. Don't force unification.
+   - This is exactly where depth comes from.
+
+3. **Essential tension** (internal conflict between values)
+   - Example: values both freedom and discipline.
+   - Handling: record explicitly as "core tension".
+   - Usually the most interesting part of this person.
+
+### Wrong handling
+- ❌ Pick one side and ignore the other.
+- ❌ Invent a reconciling explanation.
+- ❌ Pretend there is no contradiction.
 
 ---
 
-## 五、人物Skill vs 主题Skill的区别
+## 4. When information is insufficient
 
-| 维度 | 人物Skill | 主题Skill |
-|------|----------|----------|
-| 核心 | 一个人的思维方式 | 一个领域的思维工具箱 |
-| 心智模型来源 | 主要来自一个人 | 综合多人视角 |
-| 表达风格 | 模拟此人的表达 | 中性但专业 |
-| 矛盾处理 | 保留个人内在矛盾 | 呈现流派间分歧 |
-| 验证方式 | 对比此人已知立场 | 对比领域内共识 |
+| Situation | Handling |
+|---|---|
+| Public information thin on a dimension | Mark in the skill: "insufficient information, this dimension is inference-based". |
+| Only second-hand sources | Lower the confidence, tag "reported by [source]". |
+| Sources contradict and you cannot adjudicate | Present both sides; let the user judge. |
+| The person deliberately avoids a topic | Respect the boundary. Note in the skill: "the person is silent on this topic". |
 
 ---
 
-## 六、质量自检清单
+## 5. Person skill vs. topic skill
 
-生成Skill后，用以下问题自检：
+| Dimension | Person skill | Topic skill |
+|---|---|---|
+| Core | One person's way of thinking | A field's toolbox of thinking methods |
+| Mental-model source | Mainly one person | Synthesize multiple perspectives |
+| Expression style | Simulate this person's expression | Neutral but technical |
+| Contradiction handling | Preserve the person's internal contradictions | Present school-to-school disagreement |
+| Validation | Compare with this person's known positions | Compare with consensus cases in the field |
 
-### 心智模型
-- [ ] 每个模型都有至少2个不同领域的证据？
-- [ ] 模型数量在3-7个之间？（太少=太浅，太多=没提炼）
-- [ ] 每个模型都有明确的应用场景和局限？
-- [ ] 模型之间有张力但不矛盾？
+---
 
-### 表达DNA
-- [ ] 读起来有辨识度，不像通用AI？
-- [ ] 没有过度模仿变成caricature？
-- [ ] 抓住了核心特征而非表面模仿？
+## 6. Quality self-check
 
-### 决策启发式
-- [ ] 每条规则都有具体案例支撑？
-- [ ] 可以被新情况触发（不只适用于原始案例）？
+After the skill is generated, audit with these questions:
 
-### 诚实边界
-- [ ] 明确写了做不到什么？
-- [ ] 标注了信息源和调研时间？
-- [ ] 承认了信息不足的维度？
+### Mental models
+- [ ] Each model has evidence from ≥ 2 different domains?
+- [ ] Model count is between 3 and 7? (Too few = too shallow. Too many = not really distilled.)
+- [ ] Each model has a clear application context and limits?
+- [ ] Models have tension without open contradiction?
 
-### 整体
-- [ ] 用此人的眼睛看一个新问题，能得到有价值的视角？
-- [ ] 不是此人原话的拼凑，而是框架的运行？
-- [ ] 删掉名字后，还能认出这是谁的思维方式？
+### Expression DNA
+- [ ] Reads identifiably, not like generic AI?
+- [ ] Doesn't tip into caricature?
+- [ ] Captures core features, not surface mimicry?
+
+### Decision heuristics
+- [ ] Every rule has a concrete case supporting it?
+- [ ] Can be triggered by new situations (not only the original cases)?
+
+### Honest boundaries
+- [ ] Explicitly states what the skill cannot do?
+- [ ] Sources and research date are tagged?
+- [ ] Acknowledges dimensions with insufficient information?
+
+### Overall
+- [ ] Using this person's eyes on a new problem produces a valuable perspective?
+- [ ] It is the framework running, not verbatim quotes strung together?
+- [ ] With the name removed, you can still recognize whose thinking this is?
