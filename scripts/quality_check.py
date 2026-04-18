@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-自动检查生成的SKILL.md是否通过Phase 4质量标准。
-对照通过标准表格逐项检查，输出通过/不通过和具体原因。
+Check whether a generated SKILL.md meets the Phase 4 quality criteria.
+Walks the pass-criteria table, outputs per-item pass/fail with reasons.
 
-用法:
-    python3 quality_check.py <SKILL.md路径>
+Usage:
+    python3 quality_check.py <SKILL.md path>
 
-示例:
+Example:
     python3 quality_check.py .claude/skills/elon-musk-perspective/SKILL.md
 """
 
@@ -16,113 +16,110 @@ from pathlib import Path
 
 
 def check_mental_models(content: str) -> tuple[bool, str]:
-    """检查心智模型数量（3-7个）"""
-    # 匹配 ### 模型N: 或 ### N. 等模式
-    models = re.findall(r'^###\s+(?:模型|Model|心智模型)\s*\d', content, re.MULTILINE)
+    """Check the mental-model count (3-7)."""
+    # Match patterns like ### Model N: / ### 模型N: / ### 心智模型N
+    models = re.findall(r'^###\s+(?:Model|Mental Model|模型|心智模型)\s*\d', content, re.MULTILINE)
     if not models:
-        # fallback: 数「### 」开头的行在心智模型section中
+        # Fallback: count "### " headings inside the mental-models section
         in_section = False
         count = 0
         for line in content.split('\n'):
-            if re.match(r'^##\s+.*心智模型|Mental Model', line, re.IGNORECASE):
+            if re.match(r'^##\s+.*(?:Mental Model|Core Mental Models|心智模型)', line, re.IGNORECASE):
                 in_section = True
                 continue
-            if in_section and re.match(r'^##\s+', line) and '心智模型' not in line:
+            if in_section and re.match(r'^##\s+', line) and 'Mental' not in line and '心智' not in line:
                 break
             if in_section and re.match(r'^###\s+', line):
                 count += 1
         if count > 0:
             passed = 3 <= count <= 7
-            return passed, f"{count}个心智模型 {'✅' if passed else '❌ (应为3-7个)'}"
+            return passed, f"{count} mental models {'OK' if passed else 'FAIL (expected 3-7)'}"
 
     count = len(models)
     if count == 0:
-        return False, "未检测到心智模型section"
+        return False, "No mental-models section detected"
     passed = 3 <= count <= 7
-    return passed, f"{count}个心智模型 {'✅' if passed else '❌ (应为3-7个)'}"
+    return passed, f"{count} mental models {'OK' if passed else 'FAIL (expected 3-7)'}"
 
 
 def check_limitations(content: str) -> tuple[bool, str]:
-    """检查每个模型是否有局限性"""
-    has_limitation = bool(re.search(r'局限|失效|不适用|盲区|limitation|blind spot', content, re.IGNORECASE))
-    return has_limitation, "有局限性标注 ✅" if has_limitation else "❌ 未找到局限性描述"
+    """Check that limits are recorded for each model."""
+    has_limitation = bool(re.search(r'limit|fail|blind spot|not applicable|局限|失效|不适用|盲区', content, re.IGNORECASE))
+    return has_limitation, "Limits noted OK" if has_limitation else "FAIL no limits found"
 
 
 def check_expression_dna(content: str) -> tuple[bool, str]:
-    """检查表达DNA辨识度"""
-    dna_section = bool(re.search(r'表达DNA|Expression DNA|表达风格', content, re.IGNORECASE))
+    """Check the expression-DNA section has identifiable features."""
+    dna_section = bool(re.search(r'Expression DNA|表达DNA|表达风格', content, re.IGNORECASE))
     if not dna_section:
-        return False, "❌ 未找到表达DNA section"
+        return False, "FAIL no Expression DNA section"
 
-    # 检查是否有具体的风格描述（句式、词汇等）
-    style_markers = len(re.findall(r'句式|词汇|语气|幽默|节奏|确定性|引用|口头禅', content))
+    # Check for concrete style markers (sentence, vocabulary, etc.)
+    style_markers = len(re.findall(r'sentence|vocabulary|tone|humor|rhythm|certainty|citation|catchphrase|句式|词汇|语气|幽默|节奏|确定性|引用|口头禅', content, re.IGNORECASE))
     passed = style_markers >= 3
-    return passed, f"表达DNA特征: {style_markers}项 {'✅' if passed else '❌ (应≥3项)'}"
+    return passed, f"Expression DNA features: {style_markers} {'OK' if passed else 'FAIL (expected >= 3)'}"
 
 
 def check_honest_boundary(content: str) -> tuple[bool, str]:
-    """检查诚实边界（至少3条）"""
-    # 找诚实边界section
-    boundary_match = re.search(r'(?:##\s+.*诚实边界|## Honest Boundary)(.*?)(?=\n##\s|\Z)', content, re.DOTALL | re.IGNORECASE)
+    """Check honest boundaries (at least 3)."""
+    boundary_match = re.search(r'(?:##\s+.*Honest Boundary|##\s+.*诚实边界|## Honest Boundaries)(.*?)(?=\n##\s|\Z)', content, re.DOTALL | re.IGNORECASE)
     if not boundary_match:
-        return False, "❌ 未找到诚实边界section"
+        return False, "FAIL no honest-boundary section"
 
     boundary_text = boundary_match.group(1)
-    # 计算列表项
     items = re.findall(r'^[-*]\s+', boundary_text, re.MULTILINE)
     count = len(items)
     passed = count >= 3
-    return passed, f"诚实边界: {count}条 {'✅' if passed else '❌ (应≥3条)'}"
+    return passed, f"Honest boundaries: {count} {'OK' if passed else 'FAIL (expected >= 3)'}"
 
 
 def check_tensions(content: str) -> tuple[bool, str]:
-    """检查内在张力（至少2对）"""
-    tension_markers = len(re.findall(r'张力|矛盾|tension|paradox|一方面.*另一方面|既.*又', content, re.IGNORECASE))
+    """Check internal tensions (at least 2)."""
+    tension_markers = len(re.findall(r'tension|paradox|contradict|on one hand.*on the other|张力|矛盾|一方面.*另一方面|既.*又', content, re.IGNORECASE))
     passed = tension_markers >= 2
-    return passed, f"内在张力: {tension_markers}处 {'✅' if passed else '❌ (应≥2处)'}"
+    return passed, f"Internal tension: {tension_markers} {'OK' if passed else 'FAIL (expected >= 2)'}"
 
 
 def check_primary_sources(content: str) -> tuple[bool, str]:
-    """检查一手来源占比"""
-    # 找调研来源section
-    source_section = re.search(r'(?:##\s+.*来源|## Source|## Reference)(.*?)(?=\n##\s|\Z)', content, re.DOTALL | re.IGNORECASE)
+    """Check the first-hand-source ratio."""
+    source_section = re.search(r'(?:##\s+.*Source|##\s+.*Reference|##\s+.*来源)(.*?)(?=\n##\s|\Z)', content, re.DOTALL | re.IGNORECASE)
     if not source_section:
-        return True, "未找到来源section（跳过检查）"
+        return True, "No sources section (skipped)"
 
     source_text = source_section.group(1)
-    primary = len(re.findall(r'一手|primary|本人著作|原始', source_text, re.IGNORECASE))
-    secondary = len(re.findall(r'二手|secondary|转述|评论', source_text, re.IGNORECASE))
+    primary = len(re.findall(r'first-hand|primary|own writing|original|一手|本人著作|原始', source_text, re.IGNORECASE))
+    secondary = len(re.findall(r'second-hand|secondary|retelling|commentary|二手|转述|评论', source_text, re.IGNORECASE))
     total = primary + secondary
     if total == 0:
-        return True, "未标记来源类型（跳过检查）"
+        return True, "Source types not tagged (skipped)"
 
     ratio = primary / total
     passed = ratio > 0.5
-    return passed, f"一手来源占比: {primary}/{total} ({ratio:.0%}) {'✅' if passed else '❌ (应>50%)'}"
+    return passed, f"First-hand ratio: {primary}/{total} ({ratio:.0%}) {'OK' if passed else 'FAIL (expected > 50%)'}"
 
 
 def main():
     if len(sys.argv) < 2:
-        print("用法: python3 quality_check.py <SKILL.md路径>")
+        print("Usage: python3 quality_check.py <SKILL.md path>")
         sys.exit(1)
 
     skill_path = Path(sys.argv[1])
     if not skill_path.exists():
-        print(f"❌ 文件不存在: {skill_path}")
+        print(f"ERR File not found: {skill_path}")
         sys.exit(1)
 
     content = skill_path.read_text(encoding='utf-8')
 
     checks = [
-        ("心智模型数量", check_mental_models),
-        ("模型局限性", check_limitations),
-        ("表达DNA辨识度", check_expression_dna),
-        ("诚实边界", check_honest_boundary),
-        ("内在张力", check_tensions),
-        ("一手来源占比", check_primary_sources),
+        ("Mental model count", check_mental_models),
+        ("Model limits", check_limitations),
+        ("Expression DNA identifiability", check_expression_dna),
+        ("Honest boundaries", check_honest_boundary),
+        ("Internal tension", check_tensions),
+        ("First-hand source ratio", check_primary_sources),
     ]
 
-    print(f"质量检查: {skill_path.name}")
+    print(f"Quality check: {skill_path.name}")
     print("=" * 50)
 
     passed_count = 0
@@ -130,20 +127,20 @@ def main():
 
     for name, check_fn in checks:
         passed, detail = check_fn(content)
-        status = "✅ PASS" if passed else "❌ FAIL"
-        print(f"  {name:<12} {status}  {detail}")
+        status = "PASS" if passed else "FAIL"
+        print(f"  {name:<35} {status}  {detail}")
         if passed:
             passed_count += 1
 
     print("=" * 50)
-    print(f"结果: {passed_count}/{total} 通过")
+    print(f"Result: {passed_count}/{total} pass")
 
     if passed_count == total:
-        print("🎉 全部通过，可以交付")
+        print("All passed. Ready to deliver.")
     elif passed_count >= total - 1:
-        print("⚠️ 基本通过，建议修复不通过项后交付")
+        print("Mostly passing. Recommend fixing the failing item before delivery.")
     else:
-        print("❌ 多项不通过，建议回到Phase 2迭代")
+        print("Multiple fails. Recommend returning to Phase 2 to iterate.")
 
     sys.exit(0 if passed_count == total else 1)
 
