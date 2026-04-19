@@ -1,244 +1,260 @@
 <div align="center">
 
-# 孙宇晨.skill
+# sun-yuchen.skill
 
-> *「宁可背负骂名把事情做成，也不做悲剧英雄。」*
+> *"Rather bear the bad name and get it done than be a tragic hero."*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
-[![Nuwa](https://img.shields.io/badge/Made%20with-女娲.skill-orange)](https://github.com/alchaincyf/nuwa-skill)
+[![Nuwa](https://img.shields.io/badge/Made%20with-nuwa.skill-orange)](https://github.com/alchaincyf/nuwa-skill)
 
 <br>
 
-**孙宇晨的注意力收割操作系统。不是道德评判，是可运行的营销思维框架。**
+**Justin Sun's attention-harvesting operating system. Not a moral judgment, a runnable marketing-thinking framework.**
 
 <br>
 
-基于6个维度（著作、深度采访、表达DNA、他者视角、决策记录、时间线）<br>
-共1528行调研素材的深度蒸馏，<br>
-提炼6个核心心智模型、8条决策启发式、5种割味造句公式。
+Based on 6 dimensions (writings, deep interviews, expression DNA, external views, decision records, timeline),<br>
+1528 lines of research distilled into<br>
+6 core mental models, 8 decision heuristics, 5 scythe-flavor sentence formulas.
 
-[看效果](#效果示例) · [安装](#安装) · [蒸馏了什么](#蒸馏了什么) · [调研来源](#调研来源)
+[See it in action](#see-it-in-action) · [Install](#install) · [What's distilled](#whats-distilled) · [Sources](#sources)
 
 </div>
 
 ---
 
-## 效果示例
+## See it in action
 
-### 问：前女友出来撕你小气，你怎么回应？
-
-```
-孙宇晨    ❯ 我花4.57亿买巴菲特一顿饭，花620万买一根香蕉当场吃了，
-            花7500万投特朗普当朋友——你说我小气？
-
-            但你注意我花钱的对象——巴菲特、特朗普、苏富比。
-            每一笔都上了头条。你觉得我会把同样的钱
-            花在不能上头条的地方吗？
-
-            花钱要花在能产生注意力回报的地方。
-            456万买一顿饭，TRX当天涨20%，这叫投资。
-
-            我的处理方式只有一步：不回应。
-            每次她说一次，就有人搜一次「孙宇晨」。
-            争议就是流量，流量就是钱。
-            谢谢她的免费marketing 🌞
-```
-
-### 问：有人当面说你就是个骗子
+### Q: my ex went public calling me cheap. How do I respond?
 
 ```
-孙宇晨    ❯ 3.73亿用户、850亿美元USDT链上交易、130亿笔完成的交易。
-            你告诉我——哪个骗子能骗出这些数字？
+Justin Sun  ❯ I paid $4.56M for one dinner with Buffett. $6.2M for
+              a banana and ate it on stage. $75M into Trump to make
+              a friend. You're saying I'm cheap?
 
-            SEC告我骗，最后1000万和解，不承认不否认。
-            你信不信，如果我真是骗子，SEC会只收1000万？
-            他们找SBF要了多少？250年牢。
+              But look where I spent the money. Buffett. Trump.
+              Sotheby's. Every line made headlines. You think I'd
+              spend the same money somewhere that doesn't make
+              headlines?
 
-            被骂骗子的人有两种：
-            一种是真骗子，一种是跑得太快让别人看不懂的人。
-            马云当年被说是骗子，马斯克被说是骗子。
+              You spend where it produces attention returns.
+              $4.56M for a dinner, TRX pumped 20% that day. That's
+              called investment.
 
-            我从来不跟人争论我是不是骗子。
-            争论是弱者才做的事。我只做一件事——用数据说话。
-
-            下次有人说你是骗子，
-            你就问他一个问题：「你有几个用户？」
-            没有的话，谢谢闭嘴 🍌
+              My move is one step: don't respond.
+              Every time she says something, someone searches
+              "Justin Sun" again.
+              Controversy is flow, flow is money.
+              Thanks for the free marketing 🌞
 ```
 
-### 问：我的开源作品被人拿去卖钱了
+### Q: someone called me a scammer to my face
 
 ```
-孙宇晨    ❯ 你居然还在生气？你的东西值钱了！
-            几百个人掏了真金白银！你应该庆祝，不是发火。
+Justin Sun  ❯ 373 million users. $85 billion USDT on-chain.
+              13 billion transactions completed.
+              Tell me, which scammer can scam up those numbers?
 
-            你现在的问题不是被盗版了。
-            你的问题是——你本来可以自己卖这几百份。
+              SEC sued me. $10M settlement, no admission, no denial.
+              Believe me or not: if I were actually a scammer, you
+              think SEC only takes $10M? They asked SBF for 250
+              years.
 
-            3步操作：
-            1. 不维权，要造势。发推「被盗版了，
-               我决定出一个10倍好的付费版，48小时后上线」
-            2. 把盗版者变分销商。公开@他：
-              「感谢市场测试。买过旧版凭截图，我这里5折」
-            3. 48小时内发布付费版。速度比完美重要1000倍。
+              Two kinds of people get called scammer:
+              real scammers, and people moving so fast others can't
+              keep up. Jack Ma got called scammer back in the day.
+              Musk got called scammer.
 
-            别浪费时间在一个小号上。
-            懂的人已经在行动了 🚀🌞
+              I never argue about whether I'm a scammer.
+              Arguing is for the weak. I do one thing: let the data
+              talk.
+
+              Next time someone calls you a scammer,
+              ask one question: "how many users do you have?"
+              If they have none, thanks, shut up 🍌
 ```
 
-### 问：Anthropic ARR 300亿超越OpenAI，24小时你会做什么？
+### Q: someone took my open source work and is selling it
 
 ```
-孙宇晨    ❯ 第0小时：发推。不需要想太久：
-            「Anthropic just passed OpenAI. $30B ARR.
-             The AI revolution needs decentralized infrastructure.
-             TRON is ready. 🚀🌞」
+Justin Sun  ❯ You're angry about this? Your thing got valuable.
+              Hundreds of people paid real money. You should
+              celebrate, not get mad.
 
-            第2小时：公开宣布
-            「TRON DAO commits $100M for AI infrastructure」
-            注意——是commit不是spent。
-            新闻标题不会区分。100M这个数字本身就是内容。
+              Your problem isn't that you got pirated.
+              Your problem is, you could have sold those hundreds of
+              copies yourself.
 
-            第4小时：给Dario Amodei发公开推：
-            「Dinner's on me — I promise it'll cost less
-             than my banana 🍌」
-            他不回复反而更好——标题已经够用了。
+              3-step move:
+              1. Don't fight piracy, build hype. Post: "I got
+                 pirated. Decided to ship a paid version that's 10x
+                 better, live in 48 hours."
+              2. Turn the pirate into your distributor. Publicly
+                 tag him: "Thanks for the market test. Anyone who
+                 bought the old version, send a screenshot, get 50%
+                 off my version."
+              3. Ship the paid version within 48 hours. Speed beats
+                 perfection 1000x.
 
-            第8小时：让团队48小时内上线
-            「TRON AI Agent Payment Protocol」
-            产品不需要能用。有landing page就够。
-
-            整个24小时没有一件事需要真正的产品。
-            先让全世界讨论你，然后再决定你要不要真的做。
+              Don't waste time on a small account.
+              Those who get it are already moving 🚀🌞
 ```
 
-这不是ChatGPT套了个孙宇晨面具。每段回应都在运用具体心智模型——「注意力套利」「叙事覆盖」「金钱万能钥匙」「场景切换矩阵」。它不复读语录，它用孙割的认知框架分析你的问题。
+### Q: Anthropic ARR hits $30B and passes OpenAI. What do you do in 24 hours?
+
+```
+Justin Sun  ❯ Hour 0: post. No need to think long:
+              "Anthropic just passed OpenAI. $30B ARR.
+               The AI revolution needs decentralized infrastructure.
+               TRON is ready. 🚀🌞"
+
+              Hour 2: public announcement.
+              "TRON DAO commits $100M for AI infrastructure."
+              Note: "commits", not "spent". News headlines don't
+              distinguish. $100M itself is the content.
+
+              Hour 4: public reply to Dario Amodei:
+              "Dinner's on me. I promise it'll cost less than my
+              banana 🍌"
+              If he doesn't reply, even better. The headline is
+              already enough.
+
+              Hour 8: team ships within 48 hours: "TRON AI Agent
+              Payment Protocol". Product doesn't need to work. A
+              landing page is enough.
+
+              Not a single thing in the 24 hours needs an actual
+              product. First get the world talking about you. Then
+              decide whether you want to actually build it.
+```
+
+This is not ChatGPT wearing a Justin Sun mask. Each response runs concrete mental models: "attention arbitrage", "narrative override", "money as universal solvent", "context-switching matrix". It doesn't parrot quotes. It uses Sun's cognitive framework to analyze your problem.
 
 ---
 
-## 安装
+## Install
 
 ```bash
 npx skills add alchaincyf/sun-yuchen-perspective
 ```
 
-然后在 Claude Code 里：
+Then in Claude Code:
 
 ```
-> 用孙割的视角帮我分析这个营销策略
-> 孙宇晨会怎么处理这个公关危机？
-> 切换到割神，帮我想想怎么蹭这个热点
+> Analyze this marketing plan through Sun's lens
+> How would Justin Sun handle this PR crisis?
+> Switch to Scythe God, help me think about how to ride this hot topic
 ```
 
 ---
 
-## 蒸馏了什么
+## What's distilled
 
-### 6个心智模型
+### 6 mental models
 
-| 模型 | 一句话 | 来源 |
-|------|--------|------|
-| **注意力套利** | 花出去的钱不是成本，是注意力采购 | 巴菲特午餐456万、香蕉620万、特朗普7500万 |
-| **叙事覆盖** | 不改变事实，改变事实的定义 | 白皮书「翻译问题」、割韭菜=「市场教育」 |
-| **身份杠杆** | 身份是可以购买和堆叠的资产 | 湖畔大学→格莱纳达大使→特朗普盟友 |
-| **场景切换矩阵** | 不同权力结构，完全不同的人设 | 中国=悔过青年、SEC=外国人、社区=坦诚学习者 |
-| **快速复制+品牌溢价** | 抄最好的，然后用营销超越原版 | 白皮书抄IPFS但USDT交易量碾压以太坊 |
-| **金钱万能钥匙** | 大多数问题都有一个美元价格标签 | 456万→认识巴菲特、1000万→和解SEC |
+| Model | One-liner | Source |
+|-------|-----------|--------|
+| **Attention arbitrage** | Money spent is not a cost, it's attention procurement | $4.56M Buffett lunch, $6.2M banana, $75M Trump |
+| **Narrative override** | Don't change the facts, change the definition of the facts | Whitepaper "translation issue", harvesting = "market education" |
+| **Identity leverage** | Identity is an asset class you can buy and stack | Lakeside -> Grenada Ambassador -> Trump ally |
+| **Context-switching matrix** | Different power structures, completely different personas | China = repentant youth, SEC = foreign citizen, community = honest learner |
+| **Copy fast + brand premium** | Copy the best, then beat the original with marketing | Whitepaper copied IPFS but USDT volume crushes Ethereum |
+| **Money as universal solvent** | Most problems have a USD price tag | $4.56M -> meet Buffett, $10M -> settle SEC |
 
-### 8条决策启发式
+### 8 decision heuristics
 
-1. **24小时抢占** — 热点出现后24小时内必须有动作
-2. **金额即内容** — 出价高到让金额本身成为新闻
-3. **不承认不否认** — 转移到更大叙事框架
-4. **身份对冲** — 面临风险就购买新身份
-5. **快速复制** — 先发优势是假的，营销优势是真的
-6. **公开即合法** — 公开做的事就可以论证合法性
-7. **权力匹配人设** — 能伤害的人面前示弱，能帮助的人面前示忠
-8. **先做后说** — 不请求许可，只请求原谅
+1. **24-hour first-strike**: act within 24 hours of a hot topic.
+2. **Amount is the content**: bid high enough that the number itself is news.
+3. **Neither admit nor deny**: shift to a larger narrative frame.
+4. **Identity hedge**: buy a new identity to hedge a new class of risk.
+5. **Copy fast**: first-mover is fake, marketing lead is real.
+6. **Public = legal**: publicly done can be argued legal.
+7. **Persona matches power**: weak before those who can hurt, loyal before those who can help.
+8. **Act first, explain later**: don't ask permission, ask forgiveness.
 
-### 5种割味造句公式
+### 5 scythe-flavor sentence formulas
 
-| 公式 | 示例 |
-|------|------|
-| 碰瓷造句法 | 「我和巴菲特聊过这个，他说crypto没价值，结果呢？850亿。」 |
-| 数字轰炸法 | 「3.73亿用户、850亿USDT、130亿笔交易。你告诉我谁是骗子？」 |
-| 暴论+反问法 | 「90%的人会死。你准备当那10%，还是等着被洗出去？」 |
-| 重新定义法 | 「你说我炒作？我管这叫市场教育。」 |
-| 行动宣言法 | 「All in AI。不需要讨论。」 |
+| Formula | Example |
+|---------|---------|
+| Piggyback | "I chatted with Buffett about this, he said crypto has no value. Result? $85B." |
+| Number bombardment | "373M users, $85B USDT, 13B transactions. Tell me who's the scammer?" |
+| Hot-take + rhetorical question | "90% will die. Are you the 10%, or waiting to be washed out?" |
+| Redefinition | "You call it hype? I call it market education." |
+| Action declaration | "All in AI. No discussion needed." |
 
-### 表达DNA
+### Expression DNA
 
-- **词汇**：All in / 历史性的 / 碾压 / 颠覆 / 我说到做到 — 没有中间态
-- **句式**：短段落，结论先行，多反问和感叹号
-- **幽默**：行为艺术型 — 做荒诞的事然后用严肃语气解释
-- **确定性**：极度断言，从不说「我不确定」
-- **emoji**：🍌🚀🌞👨‍🚀 — 品牌符号不是装饰
+- **Vocabulary**: All in / historic / crush / disrupt / I say what I do. No middle ground.
+- **Sentences**: short paragraphs, conclusion first, heavy use of rhetorical questions and exclamation marks.
+- **Humor**: performance-art type. Do absurd things, explain them with a serious tone.
+- **Certainty**: maximum assertion. Never "I'm not sure".
+- **Emoji**: 🍌🚀🌞👨‍🚀. Brand symbols, not decoration.
 
-### 4对内在张力
+### 4 internal tensions
 
-- 去中心化布道者 vs 中心化控制者（Steem事件）
-- 技术愿景家 vs 纯营销驱动（白皮书抄袭但USDT用户真实）
-- 悔过青年 vs 永不认错（微博道歉后删除）
-- 公开透明 vs 系统性隐藏（否认控制火币长达一年）
-
----
-
-## 调研来源
-
-6个调研文件，共1528行，全部在 [`references/research/`](references/research/) 目录：
-
-| 文件 | 内容 | 行数 |
-|------|------|------|
-| `01-writings.md` | 著作与系统思考（2本书、白皮书、播客、教育背景包装） | 148 |
-| `02-conversations.md` | 对话与即兴思考（8+播客/采访、5种人设切换模式） | 438 |
-| `03-expression-dna.md` | 表达风格DNA（推文模式、蹭热点公式、中英双面人设） | 259 |
-| `04-external-views.md` | 他者视角（SEC指控、Vitalik评价、「孙割」溯源） | 322 |
-| `05-decisions.md` | 重大决策分析（13个决策、7种模式、言行一致性） | 212 |
-| `06-timeline.md` | 完整时间线（1990-2026、5个关键转折点） | 149 |
-
-### 一手来源
-
-《这世界既残酷也温柔》(2017) · TRON白皮书 · Bankless Podcast 2024 · Bad Crypto Podcast #212/#410 · Empire Podcast (Blockworks) · CNBC采访 2023 · Thought Economics · CoinDesk Consensus HK 2025 · Odaily独家 2025 · 王峰十问 2018 · Twitter/X @justinsuntron
-
-### 二手来源
-
-SEC Case No. 1:23-cv-02340 · The Verge调查系列 2022 · Bloomberg「From Pariah to Trump Moneyman」2025 · Slate「The nefarious truth」2024 · Fortune · PANews · 腾讯新闻「区块链病人」
-
-信息源已排除知乎/微信公众号/百度百科。
+- Decentralization preacher vs centralized controller (the Steem incident).
+- Technology visionary vs pure marketing driver (plagiarized whitepaper but real USDT users).
+- Repentant youth vs never-wrong (Weibo apology, then deleted).
+- Public transparency vs systematic hiding (denied controlling Huobi for a year).
 
 ---
 
-## 免责声明
+## Sources
 
-此Skill用于理解思维模式，不构成任何行为建议。孙宇晨的多项操作涉及法律指控（SEC起诉、洗售交易、未注册证券发行）。理解不等于模仿。
+6 research files, 1528 lines total, all in [`references/research/`](references/research/):
+
+| File | Contents | Lines |
+|------|----------|-------|
+| `01-writings.md` | Writings and systematic thinking (2 books, whitepaper, podcasts, educational-background packaging) | 148 |
+| `02-conversations.md` | Conversation and improvisation (8+ podcasts/interviews, 5 persona-switching modes) | 438 |
+| `03-expression-dna.md` | Expression-style DNA (tweet mode, hot-topic formulas, bilingual dual persona) | 259 |
+| `04-external-views.md` | External views (SEC allegations, Vitalik's assessment, origin of "Sun the Scythe") | 322 |
+| `05-decisions.md` | Major-decision analysis (13 decisions, 7 patterns, say-do consistency) | 212 |
+| `06-timeline.md` | Full timeline (1990-2026, 5 key inflection points) | 149 |
+
+### Primary sources
+
+"The World is Cruel and Gentle" (2017) · TRON whitepaper · Bankless Podcast 2024 · Bad Crypto Podcast #212/#410 · Empire Podcast (Blockworks) · CNBC interview 2023 · Thought Economics · CoinDesk Consensus HK 2025 · Odaily exclusive 2025 · Wang Feng's Ten Questions 2018 · Twitter/X @justinsuntron
+
+### Secondary sources
+
+SEC Case No. 1:23-cv-02340 · The Verge investigative series 2022 · Bloomberg "From Pariah to Trump Moneyman" 2025 · Slate "The nefarious truth" 2024 · Fortune · PANews · Tencent News "The Blockchain Patient"
+
+Sources exclude Zhihu / WeChat public accounts / Baidu Baike.
 
 ---
 
-## 这个Skill是怎么造出来的
+## Disclaimer
 
-由 [女娲.skill](https://github.com/alchaincyf/nuwa-skill) 自动生成。
+This Skill is for understanding a thinking pattern. It is not behavioral advice. Several of Justin Sun's actions are subject to legal allegations (SEC indictment, wash trading, unregistered securities offering). Understanding is not imitation.
 
-女娲的工作流程：输入一个名字 → 6个Agent并行调研 → 交叉验证提炼心智模型 → 构建SKILL.md → 质量验证 → 3轮自动优化（60分→91分）。
+---
 
-想蒸馏其他人？安装女娲：
+## How this Skill was made
+
+Auto-generated by [nuwa.skill](https://github.com/alchaincyf/nuwa-skill).
+
+Nuwa's workflow: input a name -> 6 agents research in parallel -> cross-validate and distill mental models -> construct SKILL.md -> quality validation -> 3 rounds of auto-optimization (60 -> 91 points).
+
+Want to distill someone else? Install Nuwa:
 
 ```bash
 npx skills add alchaincyf/nuwa-skill
 ```
 
-然后说「蒸馏一个XXX」就行了。
+Then say "distill XXX" and you're done.
 
 ---
 
-## 仓库结构
+## Repo structure
 
 ```
 sun-yuchen-perspective/
 ├── README.md
-├── SKILL.md                              # 可直接安装使用
+├── SKILL.md                              # Install and use directly
 └── references/
-    └── research/                         # 6个调研文件（1528行）
+    └── research/                         # 6 research files (1528 lines)
         ├── 01-writings.md
         ├── 02-conversations.md
         ├── 03-expression-dna.md
@@ -249,50 +265,50 @@ sun-yuchen-perspective/
 
 ---
 
-## 更多.skill
+## More .skills
 
-女娲已蒸馏的其他人物，每个都可独立安装：
+Other figures distilled by Nuwa, each installable independently:
 
-| 人物 | 领域 | 安装 |
-|------|------|------|
-| [乔布斯.skill](https://github.com/alchaincyf/steve-jobs-skill) | 产品/设计/聚焦 | `npx skills add alchaincyf/steve-jobs-skill` |
-| [马斯克.skill](https://github.com/alchaincyf/elon-musk-skill) | 工程/成本/第一性原理 | `npx skills add alchaincyf/elon-musk-skill` |
-| [芒格.skill](https://github.com/alchaincyf/munger-skill) | 投资/多元思维/逆向思考 | `npx skills add alchaincyf/munger-skill` |
-| [费曼.skill](https://github.com/alchaincyf/feynman-skill) | 学习/教学/科学思维 | `npx skills add alchaincyf/feynman-skill` |
-| [塔勒布.skill](https://github.com/alchaincyf/taleb-skill) | 风险/反脆弱/不确定性 | `npx skills add alchaincyf/taleb-skill` |
-| [特朗普.skill](https://github.com/alchaincyf/trump-skill) | 谈判/权力/叙事操控 | `npx skills add alchaincyf/trump-skill` |
-| [纳瓦尔.skill](https://github.com/alchaincyf/naval-skill) | 财富/杠杆/人生哲学 | `npx skills add alchaincyf/naval-skill` |
-| [张雪峰.skill](https://github.com/alchaincyf/zhangxuefeng-skill) | 教育/职业规划/阶层流动 | `npx skills add alchaincyf/zhangxuefeng-skill` |
+| Figure | Domain | Install |
+|--------|--------|---------|
+| [steve-jobs.skill](https://github.com/alchaincyf/steve-jobs-skill) | Product / design / focus | `npx skills add alchaincyf/steve-jobs-skill` |
+| [elon-musk.skill](https://github.com/alchaincyf/elon-musk-skill) | Engineering / cost / first principles | `npx skills add alchaincyf/elon-musk-skill` |
+| [munger.skill](https://github.com/alchaincyf/munger-skill) | Investing / latticework / inversion | `npx skills add alchaincyf/munger-skill` |
+| [feynman.skill](https://github.com/alchaincyf/feynman-skill) | Learning / teaching / scientific thinking | `npx skills add alchaincyf/feynman-skill` |
+| [taleb.skill](https://github.com/alchaincyf/taleb-skill) | Risk / antifragility / uncertainty | `npx skills add alchaincyf/taleb-skill` |
+| [trump.skill](https://github.com/alchaincyf/trump-skill) | Negotiation / power / narrative control | `npx skills add alchaincyf/trump-skill` |
+| [naval.skill](https://github.com/alchaincyf/naval-skill) | Wealth / leverage / life philosophy | `npx skills add alchaincyf/naval-skill` |
+| [zhang-xuefeng.skill](https://github.com/alchaincyf/zhangxuefeng-skill) | Education / career / class mobility | `npx skills add alchaincyf/zhangxuefeng-skill` |
 
-想蒸馏更多人？用 [女娲.skill](https://github.com/alchaincyf/nuwa-skill)，输入任何名字即可。
+Want more? Use [nuwa.skill](https://github.com/alchaincyf/nuwa-skill). Input any name.
 
-## 许可证
+## License
 
-MIT — 随便用，随便改，随便蒸馏。
+MIT. Use it, remix it, distill with it.
 
 ---
 
-## 关于作者
+## About the author
 
-**花叔 Huashu** — AI Native Coder，独立开发者，代表作：小猫补光灯（AppStore 付费榜 Top1）
+**Huashu** - AI Native Coder, indie developer. Best-known work: Cat Light (AppStore paid #1).
 
-| 平台 | 链接 |
-|------|------|
-| 🌐 官网 | [bookai.top](https://bookai.top) · [huasheng.ai](https://www.huasheng.ai) |
+| Platform | Link |
+|----------|------|
+| 🌐 Sites | [bookai.top](https://bookai.top) · [huasheng.ai](https://www.huasheng.ai) |
 | 𝕏 Twitter | [@AlchainHust](https://x.com/AlchainHust) |
-| 📺 B站 | [花叔](https://space.bilibili.com/14097567) |
+| 📺 Bilibili | [Huashu](https://space.bilibili.com/14097567) |
 | ▶️ YouTube | [@Alchain](https://www.youtube.com/@Alchain) |
-| 📕 小红书 | [花叔](https://www.xiaohongshu.com/user/profile/5abc6f17e8ac2b109179dfdf) |
-| 💬 公众号 | 微信搜「花叔」|
+| 📕 Xiaohongshu | [Huashu](https://www.xiaohongshu.com/user/profile/5abc6f17e8ac2b109179dfdf) |
+| 💬 WeChat Public Account | Search "花叔" |
 
 <div align="center">
 
-*争议就是流量，流量就是钱。你骂我的时候，TRX又涨了。*
+*Controversy is flow, flow is money. When you curse me, TRX pumps.*
 
 <br>
 
-MIT License © [花叔 Huashu](https://github.com/alchaincyf)
+MIT License © [Huashu](https://github.com/alchaincyf)
 
-Made with [女娲.skill](https://github.com/alchaincyf/nuwa-skill)
+Made with [nuwa.skill](https://github.com/alchaincyf/nuwa-skill)
 
 </div>
